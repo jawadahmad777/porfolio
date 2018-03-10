@@ -1,0 +1,27 @@
+.container {
+    img {
+        float: left;
+    }
+    h2 {
+        text-decoration: underline;
+        color: black;
+    }
+    .job {
+        margin-right: 20px;
+        margin-top: 0%;
+    }
+    .float {
+        margin-left: 390px;
+        .h4 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+    }
+    .myskill {
+        margin-left: 270px;
+        h4 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+    }
+}

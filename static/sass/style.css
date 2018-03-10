@@ -1,0 +1,75 @@
+.container img {
+  float: left; }
+.container h2 {
+  text-decoration: underline;
+  color: black; }
+.container .job {
+  margin-right: 20px;
+  margin-top: 0%; }
+.container .float {
+  margin-left: 390px; }
+  .container .float .h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black; }
+.container .myskill {
+  margin-left: 270px; }
+  .container .myskill h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black; }
+
+.footer {
+  border-top: 0.5px solid black;
+  height: 130px; }
+  .footer .container {
+    width: 130px;
+    margin-left: 130px;
+    float: left; }
+    .footer .container ul {
+      margin-top: 9px;
+      list-style: none; }
+      .footer .container ul li {
+        margin-bottom: 10px; }
+        .footer .container ul li a {
+          color: black;
+          text-decoration: none;
+          margin-left: 0px; }
+        .footer .container ul li a:hover {
+          font-style: italic; }
+  .footer .social {
+    margin-top: 80px;
+    margin-left: 350px; }
+    .footer .social ul {
+      list-style: none; }
+      .footer .social ul #li {
+        color: black; }
+      .footer .social ul li {
+        display: inline;
+        margin-right: 30px; }
+        .footer .social ul li a {
+          text-decoration: none; }
+
+.first {
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black; }
+
+.container .jawad {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+  margin-bottom: 14px; }
+  .container .jawad div {
+    justify-content: center;
+    border: 1px solid black; }
+    .container .jawad div p {
+      text-align: center;
+      margin-top: 125px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold; }
+      .container .jawad div p a {
+        color: black; }
+    .container .jawad div a:hover {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */

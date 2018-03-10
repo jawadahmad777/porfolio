@@ -1,0 +1,41 @@
+.footer {
+    border-top: 0.5px solid black;
+    height: 130px;
+    .container {
+        width: 130px;
+        margin-left: 130px;
+        float: left;
+        ul {
+            margin-top: 9px;
+            list-style: none;
+            li {
+                margin-bottom: 10px;
+                a {
+                    color: black;
+                    text-decoration: none;
+                    margin-left: 0px;
+                }
+                a:hover{
+                 font-style: italic;
+                }
+            }
+        }
+    }
+    .social{
+        margin-top: 80px;
+        margin-left: 350px;
+        ul {
+            list-style: none;
+            #li{
+                color: black;
+            }
+            li {
+                display: inline;
+                margin-right: 30px;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    }
