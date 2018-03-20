@@ -1,6 +1,7 @@
-import Layout from '../components/layout'; import Head from 'next/head';
+import Layout from '../components/layout';
+ import Head from 'next/head';
  const Projects = () => (
-<div>
+
   <Layout>
     <div className="container">
       <h1>Curriculum Vitae</h1>
@@ -8,12 +9,12 @@ import Layout from '../components/layout'; import Head from 'next/head';
       <h2 className="block">PERSONAL INFORMATION</h2>
       <br/>
       <br/>
-      <img src="../static/photo/CV Photo.jpg" width='365' height='330' />
+      <img src="../static/photo/CV Photo.jpg" width='364' height='330' />
       <div className='float'>
         <h3>Name:</h3>
         <h4 className="h4"> Jawad Ahmad</h4>
         <h3>Address:</h3>
-        <h4 className="h4">Ostpreußendamm 108,12207 Berlin (Germany)</h4>
+        <h4 className="h4"> Ostpreußendamm 108,12207 Berlin (Germany)</h4>
         <h3>E-Mail:</h3>
         <h4 className="h4"> jawaduom7@gmail.com</h4>
         <h3>Mobile:</h3>
@@ -88,5 +89,5 @@ import Layout from '../components/layout'; import Head from 'next/head';
       </div>
     </div>
   </Layout>
-</div>
+
 ); export default Projects
