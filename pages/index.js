@@ -1,8 +1,8 @@
 import Layout from '../components/layout'; import Link from 'next/link'; 
 const index = () => (
 
-<div>
   <Layout>
+  <div className="header"><h1>Welcome </h1><h1 className="port">To My Portfolio</h1></div>
     <div className="container">
       <div className='jawad'>
         <div>
@@ -37,5 +37,4 @@ const index = () => (
       </div>
     </div>
   </Layout>
-</div>
 ); export default index;
