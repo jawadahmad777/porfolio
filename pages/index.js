@@ -3,22 +3,24 @@ const index = () => (
 
   <Layout>
   <div className="header"><h1>Welcome </h1><h1 className="port">To My Portfolio</h1></div>
-    <div className="container">
-      <div className='jawad'>
+   
+      <div className="index">
         <div>
-          <Link href='/'>
+        <Link href='/'>
           <a>
-            <img src="../static/photo/Capture3.PNG" height='350px' width='450px' />
+            <img src="../static/photo/Capture.PNG" height='350px' width='400px'/>
           </a>
           </Link>
         </div>
+
         <div>
           <Link href='aboutme'>
           <a>
-            <img src="../static/photo/Capture.PNG" height='350px' width='400px' />
+            <img src="../static/photo/Capture3.PNG" height='350px' width='400px' />
           </a>
           </Link>
         </div>
+
         <div>
           <Link href='resume'>
           <a>
@@ -34,7 +36,8 @@ const index = () => (
           </a>
           </Link>
         </div>
-      </div>
-    </div>
+        
+        </div>
   </Layout>
-); export default index;
+); 
+export default index;
