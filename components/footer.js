@@ -29,11 +29,12 @@ import Link from 'next/link';
                     </Link>
                 </li>
             </ul>
-           
         </div>
         <div className="social">
-        <ul>
+        <ul className= "ul">
             <li id='li'>Follow Me</li>
+            </ul>
+         <ul className= "items">
         <li>
                 <Link href='https://github.com/jawadahmad777'>
                     <a><img src='../static/photo/git.png' width='35px' height='35px'/></a>
