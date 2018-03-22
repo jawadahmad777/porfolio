@@ -1,8 +1,8 @@
 import Layout from '../components/layout';
 const Aboutme = () => (
-  <div>
+  
     <Layout>
-      <div className="container">
+      <div className='aboutme'>
       <img src="../static/photo/about.png" width='600px' height='350px' /><br />
         <div className="first">
           <p>I'm a UI Designer and Front End Developer from Berlin.
@@ -43,6 +43,5 @@ user experience.</p>
           <p>I can quickly and efficiently join your team using continuous-integration with methods and tools such as Git and test/behaviour driven development.</p></div>
       </div>
       </Layout>
-  </div>
 );
 export default Aboutme;
