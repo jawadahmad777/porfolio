@@ -3,7 +3,7 @@ import Layout from '../components/layout';
  const Projects = () => (
 
   <Layout>
-    <div className="container">
+    <div className='resume'>
       <h1>Curriculum Vitae</h1>
       <br/>
       <h2 className="block">PERSONAL INFORMATION</h2>
