@@ -75,7 +75,7 @@ render(){
           <br/>
           <div className='clic'>
           <button onClick={this.click}> {this.state.isON ? 'Hide Docs':'Show Docs'}</button>
-          {this.state.isON ? <img src='../static/photo/gmail.png'/>: ''}
+          {this.state.isON ? <a href='../static/photo/showdoc.png'><img src='../static/photo/showdoc.png' width='350px' height='450px'/></a>: ''}
           </div>
           <h3>01/08/2004–31/05/2006:</h3>
           <h4>Intermediate Pre-Engineering
