@@ -3,7 +3,7 @@ const Aboutme = () => (
   
     <Layout>
       <div className='aboutme'>
-      <img src="../static/photo/about.png" width='600px' height='350px' /><br />
+      <a href= '../static/photo/about.png'><img src="../static/photo/about.png" width='600px' height='350px' /></a><br />
         <div className="first">
           <p>I'm a UI Designer and Front End Developer from Berlin.
                  I enjoy turning complex problems into simple, beautiful and intuitive interface designs.</p>
