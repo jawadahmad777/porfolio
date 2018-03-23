@@ -1,8 +1,30 @@
 import Layout from '../components/layout';
  import Head from 'next/head';
- const Projects = () => (
+ import {Component} from 'react';
+ class Projects extends Component{
+  constructor(){
+      super()
+      this.state={
+          isON: false,
+          isON1: false,
+      }}
 
-  <Layout>
+     
+click = ()=>{
+  this.setState({
+      isON: ! this.state.isON,
+  })
+}
+     
+click1 = ()=>{
+this.setState({
+    isON1: ! this.state.isON1,
+})
+}
+
+render(){
+  return(
+    <Layout>
     <div className='resume'>
       <h1>Curriculum Vitae</h1>
       <br/>
@@ -89,5 +111,9 @@ import Layout from '../components/layout';
       </div>
     </div>
   </Layout>
+  )
+}}
+ export default Projects
+  
 
-); export default Projects
+
