@@ -8,7 +8,6 @@ import Layout from '../components/layout';
           isON: false,
           isON1: false,
       }}
-
      
 click = ()=>{
   this.setState({
@@ -74,6 +73,10 @@ render(){
             <br/>UNIVERSITY OF MALAKAND,
             <br/> Dir (Pakistan)</h4>
           <br/>
+          <div className='clic'>
+          <button onClick={this.click}> {this.state.isON ? 'Hide Docs':'Show Docs'}</button>
+          {this.state.isON ? <img src='../static/photo/gmail.png'/>: ''}
+          </div>
           <h3>01/08/2004–31/05/2006:</h3>
           <h4>Intermediate Pre-Engineering
             <br/>GOVT DEGREE COLLEGE GULABAD,
