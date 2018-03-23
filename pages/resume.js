@@ -5,20 +5,13 @@ import Layout from '../components/layout';
   constructor(){
       super()
       this.state={
-          isON: false,
-          isON1: false,
+          isON: false
       }}
      
 click = ()=>{
   this.setState({
       isON: ! this.state.isON,
   })
-}
-     
-click1 = ()=>{
-this.setState({
-    isON1: ! this.state.isON1,
-})
 }
 
 render(){
@@ -30,7 +23,7 @@ render(){
       <h2 className="block">PERSONAL INFORMATION</h2>
       <br/>
       <br/>
-      <img className='cvimag' src="../static/photo/CV Photo.jpg" width='364' height='330' />
+      <a href='../static/photo/CV Photo.jpg'><img className='cvimag' src="../static/photo/CV Photo.jpg" width='364' height='330'/></a>
       <div className='float'>
         <h3>Name:</h3>
         <h4 className="h4"> Jawad Ahmad</h4>
@@ -73,10 +66,16 @@ render(){
             <br/>UNIVERSITY OF MALAKAND,
             <br/> Dir (Pakistan)</h4>
           <br/>
+
+
           <div className='clic'>
-          <button onClick={this.click}> {this.state.isON ? 'Hide Docs':'Show Docs'}</button>
-          {this.state.isON ? <a href='../static/photo/showdoc.png'><img src='../static/photo/showdoc.png' width='350px' height='450px'/></a>: ''}
+           <div className='button'>
+             <button onClick={this.click}> {this.state.isON ? 'Hide Documents':'Show Relevent Documents'} </button>
+             </div>
+          {this.state.isON ? <a href='../static/photo/showdoc.png'>
+          <img src='../static/photo/showdoc.png' width='380px' height='450px'/></a>: ''}
           </div>
+          <br/>
           <h3>01/08/2004–31/05/2006:</h3>
           <h4>Intermediate Pre-Engineering
             <br/>GOVT DEGREE COLLEGE GULABAD,
