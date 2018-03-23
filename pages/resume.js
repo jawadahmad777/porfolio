@@ -30,7 +30,7 @@ render(){
       <h2 className="block">PERSONAL INFORMATION</h2>
       <br/>
       <br/>
-      <img src="../static/photo/CV Photo.jpg" width='364' height='330' />
+      <img className='cvimag' src="../static/photo/CV Photo.jpg" width='364' height='330' />
       <div className='float'>
         <h3>Name:</h3>
         <h4 className="h4"> Jawad Ahmad</h4>
