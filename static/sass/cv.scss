@@ -1,5 +1,19 @@
-.container {
-    img {
+.resume{
+    margin-left: 120px;
+    margin-right: 120px;
+    h1{
+        font-size: 55px;
+        position: relative;
+        animation-name: h1;
+        animation-delay: -1s;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+        @keyframes h1 {
+            0%{right:-1000px}
+            100%{right: 0px}
+        }
+    }
+.cvimag {
         float: left;
     }
     h2 {
