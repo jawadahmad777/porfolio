@@ -23,7 +23,7 @@ render(){
       <h2 className="block">PERSONAL INFORMATION</h2>
       <br/>
       <br/>
-      <a href='../static/photo/CV Photo.jpg'><img className='cvimag' src="../static/photo/CV Photo.jpg" width='364' height='330'/></a>
+      <a href='../static/photo/CV Photo.jpg'><img className='cvimag' src="../static/photo/Photo.jpg" width= '360px' height='340px'/></a>
       <div className='float'>
         <h3>Name:</h3>
         <h4 className="h4"> Jawad Ahmad</h4>
@@ -70,7 +70,7 @@ render(){
 
           <div className='clic'>
            <div className='button'>
-             <button onClick={this.click}> {this.state.isON ? 'Hide Documents':'Show Relevent Documents'} </button>
+             <button onClick={this.click}> {this.state.isON ? 'Hide Documents':'Show Relevant Documents'} </button>
              </div>
           {this.state.isON ? <a href='../static/photo/showdoc.png'>
           <img src='../static/photo/showdoc.png' width='380px' height='450px'/></a>: ''}
